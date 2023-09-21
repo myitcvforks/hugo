@@ -111,7 +111,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sts v1.21.1 // indirect
 	github.com/aws/smithy-go v1.14.0 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
-	github.com/dlclark/regexp2 v1.4.0 // indirect
+	github.com/dlclark/regexp2 v1.10.0 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
 	github.com/go-openapi/swag v0.19.5 // indirect
 	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
@@ -156,3 +156,5 @@ require (
 )
 
 go 1.18
+
+replace github.com/alecthomas/chroma/v2 => github.com/myitcvforks/chroma/v2 v2.9.2-0.20230921171643-1f6036800504
